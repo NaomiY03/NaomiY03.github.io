@@ -1,0 +1,132 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+body {
+    font-family: "Anton SC", sans-serif;
+    background: #ff1212;
+}
+
+
+
+
+div#container {    
+    
+}
+
+
+
+header {
+    color: #fa6464;
+    padding-left: 10px;
+    font-size: 50px; 
+      
+}
+
+
+
+ 
+
+ p1 {
+    
+  color: #750000;
+  padding-left: 5px;
+  font-size: 3.50em;
+  font-style:italic;
+  font-weight: bold;
+  font-kerning:auto;
+  line-height: 300px;
+  
+}
+   
+
+
+p2 {
+    
+  color: #750000;
+  padding-left: 325px;
+  font-size: 3.50em;
+  font-style:italic;
+  font-weight: bold;
+  font-kerning:auto;
+  line-height: 500px;
+ 
+  
+       
+}
+
+p3 {
+    
+  color: #ffb0b0;
+  padding-left: 0px;
+  font-size: 10.75em;
+  font-style:italic;
+  font-weight: bold;
+  font-kerning:left;
+  line-height: 600px;
+    
+       
+}
+
+p4 {
+    
+  color: #750000;
+  padding-right: 25px;
+  font-size: 3.50em;
+  font-style:italic;
+  font-weight: bold;
+  font-kerning:none;
+  line-height: 700px;
+  
+      
+}
+
+p5 {
+    
+  color: #750000;
+  padding-right: 360px;
+  font-size: 3.50em;
+  font-style:italic;
+  font-weight: bold;
+  font-kerning:none;
+  line-height: 500px;
+      
+}
+
+p6 {
+    
+  color: #ffb0b0;
+  padding-right: 25px;
+  font-size: 10.75em;
+  font-style:italic;
+  font-weight: bold;
+  font-kerning:auto;
+  line-height: 600px;
+          
+}
+    
+ 
+
+
+footer p{
+  padding-left: 0px;
+  font-size: 0.75em;
+  text-align:center;
+  color: #542323;
+  line-height:675px;
+        
+}
+
+
+
