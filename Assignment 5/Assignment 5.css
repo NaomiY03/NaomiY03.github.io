@@ -132,7 +132,7 @@ div#arrow:hover{
 
 @keyframes drive{
     from{ transform: translateX(-200px)}
-    to{ transform: translateX(1000px)}
+    to{ transform: translateX(2000px)}
 }
 
 
