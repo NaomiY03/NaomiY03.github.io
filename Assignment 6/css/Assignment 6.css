@@ -1,0 +1,119 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+    background-color:#ff8936; 
+	color: #fcffff;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+}
+
+
+#container {
+	
+}
+
+
+section {
+ background:orange;
+ border: 1px solid black;   
+ padding: 10px;
+ /*margin:20px;*/
+ margin-bottom: 20px;   
+}
+
+
+section#second{
+   background: #ff6a00; 
+   color: white; 
+    
+   
+}
+
+
+
+
+header#maintitle {
+  text-align: center;  
+  color: yellow; 
+    
+    
+}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+#container {
+     width:700px;   
+     margin:auto;
+    
+    }	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+ body {
+  background: #a3ccae url(../img/Zenitsu.JPG) fixed no-repeat center;
+  background-size:cover;
+ }
+    
+    
+    #container {
+       width:1000px; 
+        }  
+	
+    
+section#first{
+  float: left;  
+  width:40%;  
+  font-family:"New Century Schoolbook";  
+}   
+    
+section#second{
+    float:right;    
+    width:50%;
+    
+    }   
+    
+ footer {
+     clear: both;   
+        
+    }  
+    
+    
+	
+} /* closes 1024px+ */
+
+
+
