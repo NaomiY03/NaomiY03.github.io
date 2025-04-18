@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Assignment 8:jQuery</title>
+	
+	<link rel="stylesheet" href="css/Assignment 8.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>Why Console Wars are unneccessary</h1>
+<h2>Xbox vs. Playstation</h2>
+</header>
+
+<main>
+    
+  <button id="R">Reasoning</button>  
+  <button id="B">Backup</button> 
+   <button id="C"> Conclusion</button> 
+
+<p id="reasoning"> Xbox or Playstation? Well, let's look at the facts. Both have their pros and cons. One has been out longer, and the other is more nostalgic. Despite that, both consoles have been around long enough to raise and hold a special place in the hearts of millions, if not billions, of kids/adults. Now, let’s look at the pros and cons of both consoles. Xbox pros: Cloud gaming capabilities, better software and hardware, and it’s iconic. Xbox cons: Well, there aren’t really any. It depends on how the person takes care of their console. PlayStation pros: PlayStation provides special exclusive games, better adaptive technology, and a smoother/faster frames per second rate. Playstation cons: None really; it depends on who owns the console. So, to answer the question of who is better?</p>
+
+<p id="backup">As someone who grew up only on Xbox consoles but currently owns both a PlayStation 5 and an Xbox Series S., I can confidently say that both are great and just as influential as the other. Now, to get personal, I do like Xbox far more simply because I grew up on it and in my eyes it’s much more understandable. But that doesn’t take away the glory of the PS5 either. PlayStation has introduced me to some tech I didn’t even think was possible. I love the adaptive triggers and the DualSense controller. I also loved playing all 3 of the exclusive Spider-Man games, but to me, it doesn’t take away my glorious king: Xbox. I won’t lie and say I haven’t had any issues with Xbox or PlayStation, but it wasn’t due to the console itself; it was more of a connection and server issue. That’s something that Microsoft and Sony have to fix, not the actual hardware of the consoles.</p>
+    
+<p id="conclusion"> In Conclusion, no console is better than the other. Both are amazing and have influential stamps on the world we live. They both were inspired by some consoles, and both consoles inspired other consoles. In fact, the PS5 controller’s design was inspired by the Xbox’s. The Xbox, Xbox 360, Xbox One, One S and X, Xbox Series S and X, PSP, PSVR 1&2, PS1, 2, 3, 4, and 5. They are all phenomenal consoles and devices, so to compare these would be unreasonable and quite frankly childish. Console wars are so 2010s and outdated. They both have issues, and they both have trophy-worthy winning awards. But that doesn’t mean one outshines the other.</p>  
+
+</main>
+
+<footer> &#169;Naomi Young, 2025, All rights reserved</footer>
+      
+
+  </div><!-- close "container" -->
+  
+  
+  <!-- Paste the jQuery starter code below here -->
+  
+    
+    
+  <!-- Link to jQuery on Google CDN-->
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+
+      
+ $('p#reasoning').hide();
+  $('p#backup').hide();
+ $('p#conclusion').hide();  
+      
+      
+  $('button#R').click(function(){   
+      
+     $('p#reasoning').slideToggle(500);  
+                         
+   
+});//close reasoning function
+                      
+      
+ $('button#B').click(function(){
+     
+     
+ $('p#backup').fadeToggle(1500);
+     
+ });//close backup function  
+        
+      
+ $('button#C').click(function(){
+     
+  $('p#conclusion').slideToggle(500);   
+     
+     
+     
+ });// close conclusion function     
+      
+
+      
+$('h2').click(function(){
+        
+$("body").toggleClass("pagemagic");
+       
+});//close click function for h2   
+     
+      
+      
+
+}); //close .ready()
+</script>
+
+    
+
+
+</body>
+	
+    
+    
+    
+    
+    
+</html> 

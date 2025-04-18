@@ -1,0 +1,82 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+padding:5px;
+background: Darksalmon;
+color: Maroon;    
+}
+
+header{
+ background:Crimson;
+ border: 3px solid black;
+ color:#fa9b89;
+ padding-left: 3px;
+}
+
+#reasoning{
+  border: 1px solid black;  
+  padding-left: 3px;
+  background:#c93934;
+  color: white;
+}
+
+#backup{
+  border: 1px solid black;  
+  padding-left: 3px;
+  background:#c93934;
+  color: white;  
+}
+
+#conclusion{
+  border: 1px solid black;  
+  padding-left: 3px;
+  background:#c93934;
+  color: white;  
+}
+
+
+
+h2{ 
+cursor: pointer;
+display: inline-block;    
+
+}
+
+
+button#R:hover{
+background:turquoise;
+}
+
+button#B:hover{
+background:turquoise;
+}
+
+button#C:hover{
+background:turquoise;
+}
+
+
+.pagemagic{
+   background:Aquamarine;	
+    color:DarkTurquoise;
+    font-size:1em;
+    font-family:Garamond, serif;
+    margin: 3px;
+    }
+
+
+
