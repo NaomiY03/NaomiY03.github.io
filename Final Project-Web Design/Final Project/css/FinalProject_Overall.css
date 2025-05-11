@@ -1,0 +1,153 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: Papyrus, Fantasy;
+	background-color: #3D5B59;
+    display: flex;
+}
+
+#columns{
+   display:flex; 
+}
+
+
+h1{
+  text-align: center; 
+  color: #3F706F;  
+  background: #36EEE0;
+  padding: 1em;
+  margin:auto;
+  font-size: 45px;
+}
+
+h2{
+  color: #00FFC2;  
+  padding-left: 5px;  
+    
+}
+
+h3{
+  text-align: center; 
+  color: #3F706F;  
+  background: #36EEE0;
+  padding:1em;
+  font-size: 20px;  
+}
+
+
+
+.navbar {
+   background-color: #36EEE0;
+   color: #00FFC2;
+   overflow: hidden; 
+   position: absolute; 
+   bottom: 0; 
+   padding:1em;
+   text-align: center; 
+   display: flex;
+   flex:auto;
+   margin-bottom: auto;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover{
+background-color: #3F706F; 
+color: #00FFC2;  
+}
+
+p{
+color: #00FF77;
+border: 1px solid black;
+background-color: #4D9590;
+padding: 5px;
+margin: 7px;    
+}
+
+
+//* Image settings*//
+
+figure{
+margin:0px;
+padding:0.5em;
+
+}
+
+
+
+figcaption{
+  color:#00FFC2;     
+}
+
+figure img {
+	width: 450px;
+    height: 300px;   
+}
+
+//* Footer Style*//
+
+ footer{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  
+ }
+ 
+  
+
+ #cat{
+   float: right;
+}
+
+
+div#container {
+	
+}
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+    
+    main{
+      display: flex; 
+    }    
+    
+    
+  figure{
+	flex: 1 1 50%;
+    }
+
+   footer {
+		align-items: center;
+        width: 769px;
+    }  
+    
+}
+
+
+
+/* closes 769px+ */
+
+

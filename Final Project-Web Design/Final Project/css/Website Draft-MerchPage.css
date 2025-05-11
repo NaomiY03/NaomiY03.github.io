@@ -1,0 +1,128 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: Papyrus, Fantasy;
+	background-color: #3D5B59;
+}
+
+header{
+  text-align: center; 
+  color: #3F706F;  
+  background: #36EEE0;
+  padding:1em;
+  font-size: 55px;  
+}
+
+
+
+.navbar {
+   background-color: #36EEE0;
+   color: #00FFC2;
+   overflow: hidden; 
+   position: absolute; 
+   bottom: 0; 
+   width: 100;
+   display: inline-block;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover{
+background-color: #3F706F; 
+color: #00FFC2;  
+}
+
+
+
+
+.buttons { 
+height: 200px;
+position: relative;
+}
+
+.center {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+button#H:hover{
+background:#527597;
+color: #00FFC2;
+align-content: center;
+}
+
+button#P:hover{
+background:#527597;
+color: #00FFC2;
+align-content: center;    
+}
+
+button#B{
+ background:#4774a8;   
+ color: white;   
+}
+
+
+button#A{
+ background:#4774a8;   
+ color: white;   
+}
+
+figure 1{
+margin:0px;
+padding:0.5em;
+}
+
+figure img{
+    height: 250px;
+    padding:0.5em;
+}
+
+figure 2{
+margin:0px;
+padding:0.5em;
+}
+
+
+//* Footer Style*//
+
+
+ footer{
+  width: 100%;
+  text-align: center;
+ }
+
+
+
+
+div#container {
+	
+}
+
+
+
+
